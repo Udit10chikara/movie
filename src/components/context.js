@@ -2,7 +2,7 @@ import React,{createContext, useContext, useEffect, useState} from 'react';
 const Appcontext = createContext();
 //const Api_url = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}&s=titanic`;
 //export const Api_url = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
-export const Api_url = `http://www.omdbapi.com/?apikey=fad06fc1`;
+export const Api_url = `https://www.omdbapi.com/?apikey=fad06fc1`;
 
 const AppProvider =({children})=>{
 const [loading,setLoading] = useState(true);
